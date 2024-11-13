@@ -1,0 +1,1 @@
+document.querySelector("ac").addEventListener("click", function(){})

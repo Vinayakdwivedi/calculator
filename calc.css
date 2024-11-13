@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+.output{
+    border-bottom: 2px solid rgb(136, 135, 135) ;
+    margin-bottom:7px;
+    width: 80%;
+    display: flex;
+    translate: 30px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr) ;
+    grid-auto-rows: 80px;
+    border-radius: 10px;
+    margin: auto;
+    border: 2px solid black;
+    width: 25%;
+    translate: -500px;
+    background-color: rgb(57, 57, 57);
+}
+.don{
+    border: 1px transparent;
+    border-radius: 200px;
+    margin: 5px;
+    color: white;
+    font-size: 28px;
+    background-color: rgb(61, 61, 61);
+}
+.cl{
+    background-color: rgb(72, 72, 72);
+    border: 1px transparent;
+    border-radius: 200px;
+    margin: 5px;
+    color: white;
+    font-size: 28px;
+}
+
+.output{
+    grid-column: 1/5;
+}
